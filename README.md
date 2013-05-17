@@ -1,8 +1,8 @@
 ==================
-django-userattritutes
+django-userattributes
 ==================
 
-[![Build Status](https://travis-ci.org/cschwede/django-userattributes.png?branch=master)](https://travis-ci.org/cschwede/django-userattritutes)
+[![Build Status](https://travis-ci.org/cschwede/django-userattributes.png?branch=master)](https://travis-ci.org/cschwede/django-userattributes)
 
 Extend Django UserAdmin with flexible user attributes and one or more filters to UserAdmin.
 
