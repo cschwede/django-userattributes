@@ -38,7 +38,7 @@ class UserAdminWithAttributes(UserAdmin):
     count = 2
     if hasattr(settings, 'USERATTRIBUTE_FILTER_COUNT'):
         count = settings.USERATTRIBUTE_FILTER_COUNT
-    list_filter = list(UserAdmin.list_display)
+    list_filter = list(UserAdmin.list_filter)
     for _id in range(count):
         list_filter.append(attribute_list_filter(_id))
     inlines = list(UserAdmin.inlines)
